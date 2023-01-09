@@ -3,7 +3,7 @@ import { ThemeProvider } from "styled-components";
 import { RootCss } from "../../styles/global";
 import { defaultTheme } from "../../styles/global/theme/default";
 import { DarkTheme } from "../../styles/global/theme/dark";
-import { iLayoutContextProvider } from "../../interfaces/iLayoutContext";
+import { iLayoutContextProvider } from "../../interface/iLayoutContext";
 export const LayoutContext = createContext<iLayoutContextProvider>({} as iLayoutContextProvider);
 
 interface iLayoutContext {

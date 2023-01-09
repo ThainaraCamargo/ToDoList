@@ -1,4 +1,4 @@
-import { iTheme } from "../../../interfaces/iTheme";
+import { iTheme } from "../../../interface/iTheme";
 
 export const defaultTheme: iTheme  ={
   fonts:{
